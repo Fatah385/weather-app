@@ -57,9 +57,7 @@ src/
 🖼️ Preview
 | Light Mode         | Dark Mode          |
 | ------------------ | ------------------ |
-| <img width="531" height="601" alt="light-mode" src="https://github.com/user-attachments/assets/f10e7d4f-cb17-46c1-ac23-8b8ca2f7141d" />
- |
- | <img width="548" height="607" alt="dark-mode" src="https://github.com/user-attachments/assets/616096bf-75f9-4ae0-afff-511931471ce0" />
+| <img width="531" height="601" alt="light-mode" src="https://github.com/user-attachments/assets/f10e7d4f-cb17-46c1-ac23-8b8ca2f7141d" /> | <img width="548" height="607" alt="dark-mode" src="https://github.com/user-attachments/assets/616096bf-75f9-4ae0-afff-511931471ce0" /> | 
 
 🌱 Future Improvements
 
