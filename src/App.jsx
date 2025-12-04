@@ -10,7 +10,7 @@ import ThunderImg from "./assets/images/thunder.png";
 
 export default function App() {
   const apiKey = import.meta.env.VITE_WEATHER_KEY;
-  const [city, setCity] = useState("jakarta");
+  const [city, setCity] = useState("");
   const [weather, setWeather] = useState({});
   const [darkMode, setDarkMode] = useState(false);
 
