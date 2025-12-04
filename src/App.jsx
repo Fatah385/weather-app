@@ -63,8 +63,6 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log(weather);
-
   return (
     <div className="flex w-full justify-center ">
       <div className="card bg-sky-300 dark:bg-sky-800 w-full h-screen sm:w-sm sm:h-auto flex flex-col text-center sm:mt-20 px-5 py-6 rounded-md shadow-md transition-all duration-300 ease-in-out">
