@@ -1,5 +1,12 @@
 import { Search, Droplet, Wind, Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
+import ClearImg from "./assets/images/clear.png";
+import CloudsImg from "./assets/images/clouds.png";
+import DrizzleImg from "./assets/images/drizzle.png";
+import MistImg from "./assets/images/mist.png";
+import RainImg from "./assets/images/rain.png";
+import SnowImg from "./assets/images/snow.png";
+import ThunderImg from "./assets/images/thunder.png";
 
 export default function App() {
   const apiKey = import.meta.env.VITE_WEATHER_KEY;
@@ -8,13 +15,13 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const weatherImages = {
-    Clear: "src/assets/images/clear.png",
-    Clouds: "src/assets/images/clouds.png",
-    Rain: "src/assets/images/rain.png",
-    Drizzle: "src/assets/images/drizzle.png",
-    Snow: "src/assets/images/snow.png",
-    Thunderstorm: "src/assets/images/thunder.png",
-    Mist: "src/assets/images/mist.png",
+    Clear: ClearImg,
+    Clouds: CloudsImg,
+    Rain: RainImg,
+    Drizzle: DrizzleImg,
+    Snow: SnowImg,
+    Thunderstorm: ThunderImg,
+    Mist: MistImg,
   };
 
   const getWeather = async () => {
